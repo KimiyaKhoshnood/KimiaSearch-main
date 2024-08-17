@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+div.pic {
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+}
+div.pic > img {
+  height: 100%;
+  width: 100%;
+}
+
+div.searchbox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  flex-flow: column;
+  gap: 10px;
+  padding: 20px 20px 50px 20px;
+}
+
+div.searchbox > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-flow: column;
+}
+
+div.searchbox > div > label {
+  font-size: 20px;
+}
+
+div.searchbox > div > input {
+  width: 300px;
+  height: 50px;
+  margin: 0;
+  border: 0;
+  padding: 0 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+div.searchbox > div > input:focus {
+  outline: 1px solid lightslategray;
+}
+
+div.searchbox button#searchbtn {
+  background-color: indianred;
+  padding: 15px 50px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18px;
+}
+div.searchbox button#refresh {
+  width: 50px;
+  height: 50px;
+  background-color: darkseagreen;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+div.inputSearchbox {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+textarea {
+  width: 80%;
+  max-width: 1000px;
+  min-width: 300px;
+  min-height: 200px;
+  border-radius: 10px;
+  border: 0;
+  padding: 20px;
+}
+
+textarea:focus {
+  outline: 1px solid lightslategray;
+}
+
+div.inputSearchbox > p {
+  background-color: white;
+  width: 80%;
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+span.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+span {
+  width: fit-content;
+}
+
+.active {
+  background-color: indianred;
+}
+
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
